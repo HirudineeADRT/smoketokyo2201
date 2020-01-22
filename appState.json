@@ -1,0 +1,96 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "7a1ec6a5-9f15-4c14-82b5-2ce519b37254": {
+        "id": "7a1ec6a5-9f15-4c14-82b5-2ce519b37254",
+        "parent": null,
+        "name": "smoketokyo2201",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "30a7c7d3-3ec5-4858-a105-e1f17c877cd8"
+        ],
+        "isRemovable": false,
+        "filePath": "smoketokyo2201"
+      },
+      "30a7c7d3-3ec5-4858-a105-e1f17c877cd8": {
+        "id": "30a7c7d3-3ec5-4858-a105-e1f17c877cd8",
+        "parent": "7a1ec6a5-9f15-4c14-82b5-2ce519b37254",
+        "name": "function.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "smoketokyo2201/function.js",
+        "config": {
+          "runtime": "nodejs8",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ]
+      },
+      "dc35eaf2-a577-4e53-bd5e-83d26b75301d": {
+        "id": "dc35eaf2-a577-4e53-bd5e-83d26b75301d",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js"
+      },
+      "52b86240-aa9a-4820-a181-1a2e2a4ff2c8": {
+        "id": "52b86240-aa9a-4820-a181-1a2e2a4ff2c8",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py"
+      }
+    },
+    "rootNode": "7a1ec6a5-9f15-4c14-82b5-2ce519b37254",
+    "openFiles": [
+      "30a7c7d3-3ec5-4858-a105-e1f17c877cd8"
+    ],
+    "currentFileId": "30a7c7d3-3ec5-4858-a105-e1f17c877cd8",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "smoketokyo2201",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "asia-northeast1",
+    "platform": "GCP",
+    "platformRegions": {},
+    "lastSave": 1579684431524
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "smoketokyo2201",
+      "url": "https://github.com/HirudineeADRT/smoketokyo2201"
+    }
+  }
+}
